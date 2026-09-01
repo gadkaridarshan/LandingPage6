@@ -8,6 +8,13 @@ pnpm-debug.log*
 # Build output
 dist/
 build/
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
 out/
 .next/
 .nuxt/
