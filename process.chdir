@@ -1,0 +1,4 @@
+Open <http://localhost:3000> in your browser. No build step, no bundler — the
+TypeScript in `src/features/` is loaded directly by the browser as ES modules.
+
+## Project structure
