@@ -7,14 +7,18 @@
   "scripts": {
     "start": "npx --yes serve public -l 3000",
     "serve": "npx --yes serve public -l 3000",
+    "fix:eperm": "bash scripts/fix-npm-eperm.sh",
+    "preinstall": "node -e \"try{process.chdir(process.cwd())}catch(e){console.error('EPERM uv_cwd — run: npm run fix:eperm');process.exit(1)}\"",
     "test": "echo \"No tests configured for this card.\""
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "npx": "^10.2.2",
-    "public": "^0.1.5",
     "serve": "^14.2.6"
+  },
+  "dependencies": {
+    "echo": "^0.1.9",
+    "else": "^0.0.1"
   }
 }
