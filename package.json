@@ -1,0 +1,11 @@
+{
+  "name": "landingpage6",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LandingPage6 — modular landing page components (hero, features, contact).",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  }
+}

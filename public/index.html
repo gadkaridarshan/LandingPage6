@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A clear, focused product landing page with a confident hero, key features, and a way to get in touch." />
+    <title>Launch — Build momentum for your product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/hero.css" />
+</head>
+<body>
+    <!-- @helix:story USER-585000 — Hero section component -->
+    <main>
+        <section class="hero" aria-labelledby="hero-title" role="region">
+            <div class="hero__bg" aria-hidden="true">
+                <div class="hero__bg-gradient"></div>
+                <div class="hero__bg-grid"></div>
+                <div class="hero__bg-glow hero__bg-glow--one"></div>
+                <div class="hero__bg-glow hero__bg-glow--two"></div>
+            </div>
+
+            <div class="hero__container">
+                <p class="hero__eyebrow">
+                    <span class="hero__eyebrow-dot" aria-hidden="true"></span>
+                    <span>Now in public beta</span>
+                </p>
+
+                <h1 id="hero-title" class="hero__title">
+                    Launch your next product
+                    <span class="hero__title-accent">with confidence.</span>
+                </h1>
+
+                <p class="hero__subtitle">
+                    A focused workspace that helps you ship landing pages, capture sign-ups,
+                    and turn visitors into customers — without the busywork.
+                </p>
+
+                <div class="hero__actions">
+                    <a class="hero__cta hero__cta--primary" href="#signup" role="button">
+                        Get started free
+                        <svg class="hero__cta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a class="hero__cta hero__cta--secondary" href="#features">
+                        See how it works
+                    </a>
+                </div>
+
+                <ul class="hero__proof" aria-label="Trusted by teams">
+                    <li class="hero__proof-item">
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9L10 1.5z" fill="currentColor"/>
+                        </svg>
+                        <span>4.9 average rating</span>
+                    </li>
+                    <li class="hero__proof-divider" aria-hidden="true"></li>
+                    <li class="hero__proof-item">
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M7 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="10" cy="10" r="8.5" stroke="currentColor" stroke-width="1.6"/>
+                        </svg>
+                        <span>No credit card required</span>
+                    </li>
+                    <li class="hero__proof-divider" aria-hidden="true"></li>
+                    <li class="hero__proof-item">
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M3 10a7 7 0 0114 0v5a2 2 0 01-2 2h-1v-6h3M3 10v5a2 2 0 002 2h1v-6H3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Cancel anytime</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
